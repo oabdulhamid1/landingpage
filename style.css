@@ -1,0 +1,150 @@
+
+body{
+  
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: grey
+}
+ul li{
+  list-style: none;
+}
+
+.header{margin-top: 0;
+  position: relative;
+  border: 2px outset white;
+ 
+}
+
+.logo{
+  margin-left: 5%;
+}
+
+#menu{
+  cursor: pointer;
+  width: 30px;
+  height: 35px;
+  float: left;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 4px;
+}
+.nav{
+  display: none;
+  
+}
+
+
+.bar{
+  width: 100%;
+  height: 5px;
+  background-color:black;
+  display: block;
+  border-radius: 2px;
+  transition: 0.5s ease-in-out;
+}
+
+#bar1{
+  transform:translateY(-4px);
+}
+
+#bar3{
+  transform:translateY(4px);
+}
+
+.change .bar{
+  background-color: red;
+}
+
+.change #bar1{
+  transform:translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3{
+  transform:translateY(-6px) rotate(45deg);
+}
+ 
+.change #bar2{
+  opacity: 0;
+}
+li>a:hover{
+  border-bottom: 2px solid green;
+}
+
+li{
+  margin-top: 10px;
+}
+
+.change .nav {
+  display: block;
+  transition: 2s, ease-in ;
+  
+}
+
+.button{
+  display: none;
+}
+
+
+@media screen and (min-width: 709px){
+            .bar{display: none;
+            }
+            .header{
+              display:flex;
+              flex-direction: row;
+              width: 100%;
+              height: 70px;
+
+            }
+            li{margin-top: 0;}
+
+            .nav{
+              display: block;
+              
+            }
+            #menu{
+            display: none;}
+            .logo{
+              padding-top: 17px;
+              flex-basis: 20%;
+              margin: 0;
+              padding-left:2% ;
+            }
+
+            #nav{
+              flex-basis: 60%;
+              display: block;
+              padding-left:5% ;
+            }
+            .button{
+              padding-top: 10px;
+              flex-basis: 20%;
+              display: block; 
+            }
+
+            li{
+              display:inline-block;
+              width: 60px ;
+            }
+
+            button{
+              width:120px;
+              margin-right: 5%;
+              color: antiquewhite;
+              background: linear-gradient(green , yellow) ;
+              font-weight: bolder;
+              height: 30px;
+              border-radius: 14px;
+              border: 0;
+            }
+
+        
+
+   
+}
+ 
