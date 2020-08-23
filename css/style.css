@@ -264,11 +264,11 @@ li{
 }
 
 .ft3{
-  width:40%;
+  width:50%;
   margin: 2% auto;
 }
 .A>ul,.B>ul{
-  width: 55%;
+  width: 60%;
   padding-left:10%;
   margin: 2% auto;
 }
@@ -278,12 +278,12 @@ li{
 }
 
 .ft4{
-  width:70%;
+  width:80%;
   margin: 2% auto;
 }
 .ft4>button{
   width: 50%;
-  margin: 3% 34%;
+  margin: 3% 30%;
   width:120px;
   color: antiquewhite;
   background: hsl(136, 65%, 51%) ;
@@ -294,7 +294,7 @@ li{
 }
 
 .ft4>p{
-  margin: 3% 25%;
+  margin: 3% 15%;
   font-size: 15px;
 }
 
